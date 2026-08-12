@@ -1,32 +1,104 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="th">
 <head>
-
-    <title>Portfolioของคุณากร</title>
-
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Portfolio ของ คุณากร เชื้อวงษ์</title>
+<link rel="stylesheet" href="style.css">
 </head>
+<body>
 
-<body bgcolor="#FFC0CB">
+<aside class="spine">
+  <div class="spine-top">
+    <div class="seal" aria-hidden="true">คุง</div>
+    <button class="menu-toggle" aria-label="เปิดเมนู" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+  <div class="spine-id">
+    <strong>คุณากร เชื้อวงษ์</strong>
+    <span>ชั้นมัธยมศึกษาปีที่ 6 · แผนการเรียนศิลป์-จีน</span>
+  </div>
+  <nav class="spine-nav">
+    <ul>
+      <li><a href="index.html" aria-current="page"><span class="num">๐๑</span> หน้าแรก</a></li>
+      <li><a href="personal.html"><span class="num">๐๒</span> ประวัติส่วนตัว</a></li>
+      <li><a href="education.html"><span class="num">๐๓</span> ประวัติการศึกษา</a></li>
+      <li><a href="activities.html"><span class="num">๐๔</span> ผลงาน</a></li>
+      <li><a href="contact.html"><span class="num">๐๕</span> ติดต่อ</a></li>
+    </ul>
+  </nav>
+  <div class="spine-foot">Portfolio · ๒๕๖๙</div>
+</aside>
 
+<div class="content">
+  <main class="wrap">
+    <section class="hero">
+      <div>
+        <span class="hero-tag">สมุดผลงานนักเรียน</span>
+        <h1>สวัสดีครับ ผม<br><span class="accent">คุณากร เชื้อวงษ์</span></h1>
+        <p class="lede">
+          เว็บไซต์นี้รวบรวมประวัติส่วนตัว ประวัติการศึกษา และผลงาน/กิจกรรมของผมไว้ในที่เดียว
+          จัดทำขึ้นเพื่อใช้แนะนำตัวสำหรับการศึกษาต่อและโอกาสต่างๆ ในอนาคต
+        </p>
+        <div class="hero-cta">
+          <a href="personal.html" class="btn btn-solid">ดูประวัติส่วนตัว</a>
+          <a href="contact.html" class="btn btn-ghost">ช่องทางติดต่อ</a>
+        </div>
+      </div>
 
+      <div class="id-frame">
+        <div class="seal">คุง</div>
+        <div class="id-photo">
+          <!-- ใส่ไฟล์รูปชื่อ images/ภาพคุง.png -->
+          <img src="images/ภาพคุง.png" alt="รูปคุณากร เชื้อวงษ์">
+        </div>
+        <div class="id-caption">
+          <div class="name">คุณากร เชื้อวงษ์</div>
+          <div class="role">ชื่อเล่น: คุง</div>
+        </div>
+      </div>
+    </section>
 
-<h1>หน้าหลัก</h1>
+    <section class="leaf-list">
+      <a class="leaf" href="personal.html">
+        <span class="num">๐๒</span>
+        <span>
+          <h3>ประวัติส่วนตัว</h3>
+          <p>ข้อมูลทั่วไปและรูปภาพของผม</p>
+        </span>
+        <span class="go">→</span>
+      </a>
+      <a class="leaf" href="education.html">
+        <span class="num">๐๓</span>
+        <span>
+          <h3>ประวัติการศึกษา</h3>
+          <p>เส้นทางการเรียนตั้งแต่อดีตถึงปัจจุบัน</p>
+        </span>
+        <span class="go">→</span>
+      </a>
+      <a class="leaf" href="activities.html">
+        <span class="num">๐๔</span>
+        <span>
+          <h3>ผลงาน</h3>
+          <p>ผลงานและกิจกรรมที่เคยเข้าร่วม</p>
+        </span>
+        <span class="go">→</span>
+      </a>
+      <a class="leaf" href="contact.html">
+        <span class="num">๐๕</span>
+        <span>
+          <h3>ติดต่อ</h3>
+          <p>ช่องทางการติดต่อผม</p>
+        </span>
+        <span class="go">→</span>
+      </a>
+    </section>
+  </main>
 
+  <footer class="page-foot">&copy; ๒๕๖๙ คุณากร เชื้อวงษ์ — Portfolio Website</footer>
+</div>
 
-
-<p>นักเรียนชั้นม.6/4</p>
-
-
-
-<a href="Personal.html">ประวัติส่วนตัว</a>
-    <a href="Education.html">ประวัติการศึกษา</a>
-    <a href="Activities.html">กิจกรรมที่ทำ</a>
-    <a href="Contact.html">ช่องทางติดต่อติดต่อ</a>
-
-
-
+<script src="script.js"></script>
 </body>
-
 </html>
